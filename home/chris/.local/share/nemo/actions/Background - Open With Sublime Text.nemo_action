@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Open With Sublime Text
+Comment=Open the current directory in Sublime Text
+Exec=/opt/sublime_text/sublime_text %F
+Icon-Name=sublime-text
+Selection=none
+Extensions=dir
