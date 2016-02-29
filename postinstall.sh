@@ -1,7 +1,10 @@
 ### Everyone
+sudo apt-get install -y gimp
 sudo apt-get install -y htop
+sudo apt-get install -y inkscape
 sudo apt-get install -y redshift redshift-gtk
 sudo apt-get install -y virtualbox-qt
+sudo apt-get install -y vlc
 
 
 
@@ -11,10 +14,11 @@ sudo apt-get install -y steam
 
 
 ### Developers
+sudo apt-get install -y cmake
 sudo apt-get install -y git
-sudo apt-get install -y sqlitebrowser
-sudo apt-get install -y postgresql postgresql-contrib
 sudo apt-get install -y pgadmin3
+sudo apt-get install -y postgresql postgresql-contrib
+sudo apt-get install -y sqlitebrowser
 sudo apt-get install -y wireshark
 
 ## NodeJS
