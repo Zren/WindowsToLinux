@@ -7,7 +7,7 @@ mkdir -p ~/Code/Git
 cd ~/Code/Git
 git clone git@github.com:Zren/WindowsToLinux.git
 cd WindowsToLinux
-sh ./install.sh
+sh ./postinstall.sh
 ```
 
 Then follow [configure.md](configure.md) for things that must be done manually.
