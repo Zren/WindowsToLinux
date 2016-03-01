@@ -42,3 +42,11 @@ sudo apt-get update -y livestreamer
 
 ## NodeJS Packages
 npm install -g ionic@beta
+
+
+
+### Desktop
+gsettings set org.mate.desktop.applications.browser exec chrome-browser
+gsettings set org.mate.caja.preferences show-hidden-files true
+
+
