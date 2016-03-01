@@ -18,6 +18,7 @@ sudo apt-get install -y cmake
 sudo apt-get install -y git
 sudo apt-get install -y pgadmin3
 sudo apt-get install -y postgresql postgresql-contrib
+sudo apt-get install -y python-pip
 sudo apt-get install -y sqlitebrowser
 sudo apt-get install -y wireshark
 
@@ -38,7 +39,8 @@ wget https://packagecontrol.io/Package%20Control.sublime-package -P ~/.config/su
 
 
 ### User
-sudo apt-get update -y livestreamer
+sudo apt-get install -y livestreamer
+sudo apt-get install -y inotify-tools
 
 ## NodeJS Packages
 npm install -g ionic@beta
