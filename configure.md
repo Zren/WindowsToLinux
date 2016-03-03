@@ -41,6 +41,7 @@
 # Manual Only
 
 * Chrome
+  * Disable smooth scroll in chrome://flags
   * Ghostery
     * Uncheck SoundCloud, Gravatar
   * Imagus
