@@ -25,6 +25,9 @@
 * Konversation
   * Behaviour > Chat Window > Hide Join/Part/Nick events
 
+* Install
+  * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
 # Manual Only
 
 * Chrome
