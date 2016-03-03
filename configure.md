@@ -1,22 +1,26 @@
 # `postinstall.sh` Todo List
 
 * Dolphin File Browser
- * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default"
+  * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default"
 
 * Taskbar
- * Run Dolphin, Chrome, Konsole, SublimeText, then right click each in the taskbar > Show launcher when not running
- * Taskbar Settings
-  * On middle-click: Close
-  * Sorting: Do not sort
-  * Grouping: Do not group
-  * Check "Show only task from current desktop"
- * Panel Settings
-  * Remove Sitcky Notes widget
+  * Run Dolphin, Chrome, Konsole, SublimeText, then right click each in the taskbar > Show launcher when not running
+  * Taskbar Settings
+    * On middle-click: Close
+    * Sorting: Do not sort
+    * Grouping: Do not group
+    * Check "Show only task from current desktop"
+  * Panel Settings
+    * Remove Sitcky Notes widget
 
 * Window Settings
- * Screen Edges
-  * Top Left: No Action
+  * Screen Edges
+    * Top Left: No Action
 
+* SysTray
+  * System Tray Settings
+    * Entries > Shown: Konversation
+    * Entries > Hidden: 
 
 
 # Manual Only
