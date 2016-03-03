@@ -6,6 +6,10 @@ sudo apt-get install -y redshift redshift-gtk
 sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y vlc
 
+## Chrome
+URL='https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
+
+
 
 
 ### Gaming
