@@ -21,12 +21,22 @@
   * System Tray Settings
     * Entries > Shown: Konversation
     * Entries > Hidden: 
+  * Lock Widgets
 
 * Konversation
   * Behaviour > Chat Window > Hide Join/Part/Nick events
 
 * Install
   * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+* System Settings
+  * Mouse
+    * Icons: Double-click to open files and folders (select on first click)
+
+* Desktop Settings
+  * Tweaks
+    * Uncheck "Show the desktop toolbox"
+
 
 # Manual Only
 
