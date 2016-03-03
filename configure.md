@@ -33,6 +33,10 @@
 * System Settings
   * Mouse
     * Icons: Double-click to open files and folders (select on first click)
+  * Desktop Behaviour
+    * Screen Locking
+      * Uncheck "Lock screen automatically after _ min"
+      * Uncheck "Lock screen on resume"
 
 * Desktop Settings
   * Tweaks
