@@ -22,6 +22,8 @@
     * Entries > Shown: Konversation
     * Entries > Hidden: 
 
+* Konversation
+  * Behaviour > Chat Window > Hide Join/Part/Nick events
 
 # Manual Only
 
