@@ -1,7 +1,8 @@
 # `postinstall.sh` Todo List
 
+  
 * Dolphin File Browser
-  * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default"
+  * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default", and "Apply view properties to: All Folders"
 
 * Taskbar
   * Run Dolphin, Chrome, Konsole, SublimeText, then right click each in the taskbar > Show launcher when not running
@@ -56,3 +57,16 @@ git config --global user.email "email@gmail.com"
 * SSH
   * Generate new SSH Key?
   * Or copy previous to `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`.
+
+* Steam
+  ```
+  cd ~/.steam/skins
+  git clone https://github.com/somini/Pixelvision2.git
+  ```
+  * Login
+  * Settings
+    * Friends > Uncheck "When friend joins a game: display a notification"
+    * Interface > Uncheck "Notify me about additions to my games and other releases"
+    * Interface > Set Taskbar Preferences
+      * Check only Library and Exit Steam
+    * Interface > Skin: Pixelvision2
