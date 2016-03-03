@@ -44,7 +44,7 @@
   * Disable smooth scroll in chrome://flags
   * Check that Flash requires user ok (not disabled and "always run" is unchecked) in chrome://plugins
   * Ghostery
-    * Uncheck SoundCloud, Gravatar
+    * Uncheck SoundCloud, Gravatar, Videology (daisuki)
   * Imagus
   ```
   !:bato.to
