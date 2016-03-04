@@ -20,12 +20,15 @@ sudo apt-get install -y steam # Prompts license agreement. TODO: Send <tab>Enter
 
 ### Developers
 sudo apt-get install -y cmake
-sudo apt-get install -y git
 sudo apt-get install -y pgadmin3
 sudo apt-get install -y postgresql postgresql-contrib
 sudo apt-get install -y python-pip python3-pip
 sudo apt-get install -y sqlitebrowser
 sudo apt-get install -y wireshark # Prompt to create wireshark user group (default: no). TODO: Send Enter
+
+## Git
+sudo apt-get install -y git
+git config --global push.default matching
 
 ## NodeJS
 # https://nodejs.org/en/download/package-manager/
