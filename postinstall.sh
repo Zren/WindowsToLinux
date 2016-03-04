@@ -39,14 +39,19 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install -y sublime-text-installer
 # https://packagecontrol.io/installation
-wget https://packagecontrol.io/Package%20Control.sublime-package -P "~/.config/sublime-text-3/Installed Packages/"
+wget https://packagecontrol.io/Package%20Control.sublime-package -P ~/.config/sublime-text-3/Installed Packages/
 
 
 
 ### User
 sudo apt-get install -y livestreamer
 sudo apt-get install -y inotify-tools
+
+# Quassel
 sudo apt-get install -y quassel-core quassel-client
+wget https://gist.githubusercontent.com/Zren/e91ad5197f9d6b6d410f/raw/DarkSolarized.qss -P ~/.config/quassel-irc.org/
+wget https://gist.githubusercontent.com/Zren/2779042/raw/DarkMonokai.qss -P ~/.config/quassel-irc.org/
+
 
 ## NodeJS Packages
 
