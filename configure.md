@@ -3,6 +3,7 @@
   
 * Dolphin File Browser
   * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default", and "Apply view properties to: All Folders"
+  * Control > Cofigure Dolphin > Navigation > Check "Open archives as folder"
 
 * Taskbar
   * Run Dolphin, Chrome, Konsole, SublimeText, then right click each in the taskbar > Show launcher when not running
