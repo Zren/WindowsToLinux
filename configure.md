@@ -54,6 +54,8 @@
   ```
   !:bato.to
   ```
+  * RES
+    * Appearance > Selected Entry: Off
 * Git
 ```
 git config --global user.email "email@gmail.com"
