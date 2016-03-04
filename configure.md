@@ -18,6 +18,14 @@
 * Window Settings
   * Screen Edges
     * Top Left: No Action
+  * Virtual Desktops
+    * Number of Desktops: 3
+    * Switching
+      * Animation: No Animations
+      * Shortcuts
+        * Desktop Switching > Switch One Desktop Left: Ctrl+Alt+Left
+        * Desktop Switching > Switch One Desktop Right: Ctrl+Alt+Right
+        * Desktop Switching > Switch To Desktop 1,2,3: None
 
 * SysTray
   * System Tray Settings
