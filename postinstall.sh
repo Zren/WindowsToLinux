@@ -46,6 +46,7 @@ wget https://packagecontrol.io/Package%20Control.sublime-package -P "~/.config/s
 ### User
 sudo apt-get install -y livestreamer
 sudo apt-get install -y inotify-tools
+sudo apt-get install -y quassel-core quassel-client
 
 ## NodeJS Packages
 
