@@ -29,6 +29,8 @@
 
 * SysTray
   * System Tray Settings
+    * General > Uncheck "Clipboard"
+    * General > Uncheck "Instant Messaging"
     * Entries > Shown: Konversation
     * Entries > Hidden: 
   * Lock Widgets
