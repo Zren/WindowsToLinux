@@ -57,7 +57,7 @@
 # Manual Only
 
 * Chrome
-  * Disable smooth scroll in chrome://flags
+  * ~~Disable smooth scroll in chrome://flags~~ (Causes persistent tearing/artifacts on scroll).
   * Check that Flash requires user ok (not disabled and "always run" is unchecked) in chrome://plugins
   * Ghostery
     * Uncheck SoundCloud, Gravatar, Videology (daisuki)
