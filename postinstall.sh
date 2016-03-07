@@ -13,7 +13,9 @@ URL='https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
 
 
 ### Gaming
+## Steam
 sudo apt-get install -y steam # Prompts license agreement. TODO: Send <tab>Enter
+echo 'STEAM_FRAME_FORCE_CLOSE DEFAULT=1' >> ~/.pam_environment # Close to Tray (https://github.com/ValveSoftware/steam-for-linux/issues/1025)
 # TODO: Run steam to run updater gui
 
 
