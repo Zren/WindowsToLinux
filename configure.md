@@ -57,12 +57,12 @@
 # Manual Only
 
 * Chrome
+  * Settings > Appearance > Uncheck "Use system title bar and borders"
   * ~~Disable smooth scroll in chrome://flags~~ (Causes persistent tearing/artifacts on scroll).
   * Check that Flash requires user ok (not disabled and "always run" is unchecked) in chrome://plugins
   * Ghostery
     * Uncheck SoundCloud, Gravatar, Videology (daisuki)
   * Imagus
-  * Settings > Appearance > Uncheck "Use system title bar and borders"
   ```
   !:bato.to
   ```
