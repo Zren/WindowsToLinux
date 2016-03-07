@@ -62,6 +62,7 @@
   * Ghostery
     * Uncheck SoundCloud, Gravatar, Videology (daisuki)
   * Imagus
+  * Settings > Appearance > Uncheck "Use system title bar and borders"
   ```
   !:bato.to
   ```
