@@ -25,6 +25,7 @@ sudo apt-get install -y cmake
 sudo apt-get install -y pgadmin3
 sudo apt-get install -y postgresql postgresql-contrib
 sudo apt-get install -y python-pip python3-pip
+sudo apt-get install -y qtcreator
 sudo apt-get install -y sqlitebrowser
 sudo apt-get install -y wireshark # Prompt to create wireshark user group (default: no). TODO: Send Enter
 
