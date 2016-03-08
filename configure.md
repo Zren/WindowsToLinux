@@ -86,6 +86,10 @@
     sudo rm /usr/lib/vlc/lua/playlist/youtube.luac # Delete broken parser
     sudo cp youtube.lua /usr/lib/vlc/lua/playlist/youtube.lua # Install working parser
     ```
+    * Install [youtube playlist parser](http://addons.videolan.org/content/show.php/+Youtube+playlist?content=149909)
+    ```
+    wget http://addons.videolan.org/CONTENT/content-files/149909-playlist_youtube.lua -P ~/.local/share/vlc/lua/playlist/youtube_playlist.lua
+    ```
 
 * Git
 ```
