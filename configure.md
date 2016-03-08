@@ -12,6 +12,7 @@
     * Sorting: Do not sort
     * Grouping: Do not group
     * Check "Show only task from current desktop"
+    * Note: Minimized items are grayed out [might be fixed in 16.10](https://bugs.kde.org/show_bug.cgi?id=311991)
   * Panel Settings
     * Remove Sitcky Notes widget
 
