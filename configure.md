@@ -77,7 +77,7 @@
     * Appearance > Selected Entry: Off
   * Youtube => VLC
     * Copy `~/.local/share/applications/vlcprotocol.desktop`
-    * xdg-mime default vlcprotocol.desktop x-scheme-handler/vlc
+    * Run `xdg-mime default vlcprotocol.desktop x-scheme-handler/vlc`
     * Install https://greasyfork.org/en/scripts/17847-youtube-vlc-link to bind the Cinema View Button to open the vlc:// link.
 * Git
 ```
