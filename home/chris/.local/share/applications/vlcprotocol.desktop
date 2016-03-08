@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=VLC
+Exec=url="%u"; url=$(echo $url | cut -c7-); vlc --one-instance --vout none --qt-start-minimized "https://www.youtube.com/watch$url"
+Icon=vlc-icon
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/vlc;
