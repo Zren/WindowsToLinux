@@ -52,6 +52,13 @@
 * Desktop Settings
   * Tweaks
     * Uncheck "Show the desktop toolbox"
+  * Wallpaper
+    * Layout: Folder View
+* Folder View Settings
+  * Icons
+    * Arrange in: Columns
+    * Sorting: Unsorted
+    * Size: 4 (out of 6)
 
 
 # Manual Only
