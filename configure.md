@@ -79,6 +79,14 @@
     * Copy `~/.local/share/applications/vlcprotocol.desktop`
     * Run `xdg-mime default vlcprotocol.desktop x-scheme-handler/vlc`
     * Install https://greasyfork.org/en/scripts/17847-youtube-vlc-link to bind the Cinema View Button to open the vlc:// link.
+    * Update vlc youtube parser (to fix filenames)
+    ```
+    wget https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
+    sudo cp /usr/lib/vlc/lua/playlist/youtube.luac youtube.luac # Backup
+    sudo rm /usr/lib/vlc/lua/playlist/youtube.luac # Delete broken parser
+    sudo cp youtube.lua /usr/lib/vlc/lua/playlist/youtube.lua # Install working parser
+    ```
+
 * Git
 ```
 git config --global user.email "email@gmail.com"
