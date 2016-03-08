@@ -1,8 +1,14 @@
 [Desktop Entry]
-Name=VLC
-Exec=url="%u"; url=$(echo $url | cut -c7-); vlc --one-instance --vout none --qt-start-minimized "https://www.youtube.com/watch$url"
+Comment=
+Exec=url="%u"; url=$(echo $url | cut -c5-); vlc --one-instance --vout none --qt-start-minimized $url
 Icon=vlc-icon
-Type=Service
-Terminal=false
-MimeType=x-scheme-handler/vlc;
-NotShowIn=KDE;
+MimeType=x-scheme-handler/vlc-http;x-scheme-handler/vlc-https;
+Name=vlc-https:// Launcher
+NoDisplay=true
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
