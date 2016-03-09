@@ -63,6 +63,13 @@
     * Sorting: Unsorted
     * Size: 4 (out of 6)
 
+* Global Hotkeys
+  * KWin > Show Desktop: Win+M
+  * KWin > Maximize Window: Win+Up
+  * KWin > Minimize Window: Win+Down
+  * KWin > Quick Tile Window to the Left: Win+Left
+  * KWin > Quick Tile Window to the Right: Win+Right
+  * Plasma > Activate Application Menu Widget: Win+Space (You can't bind to just the Windows key atm)
 
 # Manual Only
 
