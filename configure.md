@@ -49,8 +49,15 @@
     * Screen Locking
       * Uncheck "Lock screen automatically after _ min"
       * Uncheck "Lock screen on resume"
+    * Desktops Effects
+      * Uncheck Zoom
+      * Uncheck Fade
+      * Uncheck Maximize
+      * Uncheck Minimize
+      * Check Resize Window
   * Startup and Shutdown
     * Desktop Session > Uncheck "Confirm logout"
+  
 
 * Desktop Settings
   * Tweaks
