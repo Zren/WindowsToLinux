@@ -62,6 +62,8 @@
 * Desktop Settings
   * Tweaks
     * Uncheck "Show the desktop toolbox"
+  * Mouse Actions
+    * Remove "Vertical Scroll: Switch Desktop"
   * Wallpaper
     * Layout: Folder View
 * Folder View Settings
