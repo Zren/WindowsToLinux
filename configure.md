@@ -43,6 +43,8 @@
   * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 * System Settings
+  * Window Behaviour
+    * Focus stealing prevention: None
   * Mouse
     * Icons: Double-click to open files and folders (select on first click)
   * Desktop Behaviour
