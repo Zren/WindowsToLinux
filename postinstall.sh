@@ -22,6 +22,7 @@ echo 'STEAM_FRAME_FORCE_CLOSE DEFAULT=1' >> ~/.pam_environment # Close to Tray (
 
 ### Developers
 sudo apt-get install -y cmake
+sudo apt-get install -y curl
 sudo apt-get install -y pgadmin3
 sudo apt-get install -y postgresql postgresql-contrib
 sudo apt-get install -y python-pip python3-pip
