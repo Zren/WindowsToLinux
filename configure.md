@@ -132,3 +132,12 @@ git config --global user.email "email@gmail.com"
     * Interface > Set Taskbar Preferences
       * Check only Library and Exit Steam
     * Interface > Skin: Pixelvision2
+
+# KDE 5.5 on Kubuntu 15.10
+
+https://community.kde.org/Kubuntu/PPAs
+
+```
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt update && sudo apt full-upgrade -y
+```
