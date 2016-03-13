@@ -59,6 +59,9 @@
       * Check Resize Window
   * Startup and Shutdown
     * Desktop Session > Uncheck "Confirm logout"
+  * Removable Devices
+    * Check "Enable Auto-Mounting of removeable Media"
+    * AutoMount data drive on login.
   
 
 * Desktop Settings
