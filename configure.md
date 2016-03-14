@@ -85,6 +85,22 @@
   * KWin > Quick Tile Window to the Right: Win+Right
   * Plasma > Activate Application Menu Widget: Win+Space (You can't bind to just the Windows key atm)
 
+* Shutter
+  * Preferences
+    * Main > Save > Filename: `%Y-%m-%d - %H-%M-%S - $name` 
+    * Main > Save > Directory: ~/Pictures/Screenshots/   
+    * Behaviour > Check "Start Shutter at Login"
+    * Behaviour > Check "Hide Window on First Launch"
+    * Behaviour > Uncheck "Autohide main window when taking a screenshot"
+    * Behaviour > Uncheck "Present main window after taking a screenshot"
+    
+
+* System Settings > Shortcuts > Custom Shortcuts
+  * Uncheck "Preset Actions > PrintScreen"
+  * Edit > New Group: Shutter
+  * PrintScreen `shutter -f`, Ctrl+PrintScreen `shutter -s`, Alt+PrintScreen `shutter -a`
+
+
 # Manual Only
 
 * Chrome
