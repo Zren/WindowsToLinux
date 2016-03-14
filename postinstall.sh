@@ -3,6 +3,7 @@ sudo apt-get install -y gimp
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
 sudo apt-get install -y redshift redshift-gtk
+sudo apt-get install -y shutter
 sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y vlc
 
