@@ -93,12 +93,14 @@
     * Behaviour > Check "Hide Window on First Launch"
     * Behaviour > Uncheck "Autohide main window when taking a screenshot"
     * Behaviour > Uncheck "Present main window after taking a screenshot"
+    * Note: Upload is manual only, and [only supports unauthed Imgur uploads](https://bugs.launchpad.net/shutter/+bug/990921).
     
 
 * System Settings > Shortcuts > Custom Shortcuts
   * Uncheck "Preset Actions > PrintScreen"
   * Edit > New Group: Shutter
   * PrintScreen `shutter -f`, Ctrl+PrintScreen `shutter -s`, Alt+PrintScreen `shutter -a`
+  * TODO: Auto Upload to Imgur using `-e` (wait till capture completes before ending), then parsing `./.shutter/session.xml` for the last screenshot filename, and uploading it.
 
 
 # Manual Only
