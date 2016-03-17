@@ -141,6 +141,11 @@ git config --global user.email "email@gmail.com"
   * Generate new SSH Key?
   * Or copy previous to `~/.ssh/id_rsa` (chmod to 700) and `~/.ssh/id_rsa.pub`.
 
+* Heroku
+```
+heroku login
+```
+  
 * Steam
   ```
   cd ~/.steam/skins
