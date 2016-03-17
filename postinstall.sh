@@ -38,6 +38,10 @@ sudo apt-get install -y wireshark # Prompt to create wireshark user group (defau
 sudo apt-get install -y git
 git config --global push.default matching
 
+## Heroku
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku
+
 ## NodeJS
 # https://nodejs.org/en/download/package-manager/
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
