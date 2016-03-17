@@ -29,10 +29,13 @@ sudo apt-get install -y cmake
 sudo apt-get install -y curl
 sudo apt-get install -y pgadmin3
 sudo apt-get install -y postgresql postgresql-contrib
-sudo apt-get install -y python-pip python3-pip
 sudo apt-get install -y qtcreator
 sudo apt-get install -y sqlitebrowser
 sudo apt-get install -y wireshark # Prompt to create wireshark user group (default: no). TODO: Send Enter
+
+## Python
+sudo apt-get install -y python-pip python3-pip
+sudo easy_install3 -U pip # http://stackoverflow.com/questions/27341064/how-do-i-fix-importerror-cannot-import-name-incompleteread
 
 ## Git
 sudo apt-get install -y git
