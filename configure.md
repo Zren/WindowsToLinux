@@ -52,11 +52,12 @@
     * Screen Locking
       * Uncheck "Lock screen automatically after _ min"
       * Uncheck "Lock screen on resume"
-    * Desktops Effects
+    * Desktop Effects
       * Uncheck Zoom
       * Uncheck Fade
       * Uncheck Maximize
       * Uncheck Minimize
+      * Uncheck Window Aperture
       * Check Resize Window
   * Startup and Shutdown
     * Desktop Session > Uncheck "Confirm logout"
