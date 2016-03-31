@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=
+Exec=url="%u"; url=$(echo $url | cut -c13-); vlc --one-instance --vout none --qt-start-minimized --playlist-enqueue $url
+Icon=vlc-icon
+MimeType=x-scheme-handler/vlc-http;x-scheme-handler/vlc-enqueue-https;
+Name=vlc-enqueue-https:// Launcher
+NoDisplay=true
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
