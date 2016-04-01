@@ -9,6 +9,11 @@ sudo apt-get install -y vlc
 sudo apt-get install -y xbindkeys
 sudo apt-get install -y xdotool
 
+## Calibre
+# https://calibre-ebook.com/download_linux (install to ~/calibre-bin/ and create custom .desktop)
+wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | python -c "import sys; main=lambda x,y:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main('~/calibre-bin', True)"
+
+
 
 ## Weather Widgets
 sudo apt-get install -y qml-module-qtquick-xmllistmodel libqt5qml-graphicaleffects
