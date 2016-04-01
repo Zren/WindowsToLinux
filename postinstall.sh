@@ -3,9 +3,12 @@ sudo apt-get install -y gimp
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
 sudo apt-get install -y redshift redshift-gtk
-sudo apt-get install -y shutter
+sudo apt-get install -y scrot
 sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y vlc
+sudo apt-get install -y xbindkeys
+sudo apt-get install -y xdotool
+
 
 ## Weather Widgets
 sudo apt-get install -y qml-module-qtquick-xmllistmodel libqt5qml-graphicaleffects
@@ -71,6 +74,13 @@ sudo apt-get install -y quassel-core quassel-client
 wget https://gist.githubusercontent.com/Zren/e91ad5197f9d6b6d410f/raw/DarkSolarized.qss -P ~/.config/quassel-irc.org/
 wget https://gist.githubusercontent.com/Zren/2779042/raw/DarkMonokai.qss -P ~/.config/quassel-irc.org/
 
+# scrotplus
+pip3 install imgurpython # Required by: scrotplus
+mkdir -p ~/Pictures/Screenshots
+cp -r ./home/chris/bin ~/bin
+cp ./home/chris/.xbindkeysrc ~/.xbindkeysrc
+xbindkeys
+
 
 ## NodeJS Packages
 
@@ -80,7 +90,7 @@ pip3 install requests
 
 
 
-### Desktop
 
+### Desktop
 
 
