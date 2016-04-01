@@ -161,6 +161,10 @@ heroku login
       * Check only Library and Exit Steam
     * Interface > Skin: Pixelvision2
 
+* scrotplus
+  * Run `uploadscreenshot -a`, to begin logging into imgur.
+
+
 # KDE 5.5 on Kubuntu 15.10
 
 https://community.kde.org/Kubuntu/PPAs
