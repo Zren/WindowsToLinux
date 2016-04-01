@@ -1,0 +1,15 @@
+### Screenshots
+"capturescreen"
+  Print
+
+"captureregion"
+  Control + Print
+
+### Mouse Side Buttons
+# Mouse Button 9 (Thumb) => Next Song
+"xdotool key XF86AudioNext"
+  b:9
+
+# Mouse Button 8 (Bent Thumb) => Previous Song
+"xdotool key XF86AudioPrev"
+  b:8
