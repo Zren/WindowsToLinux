@@ -105,6 +105,18 @@
   * TODO: Auto Upload to Imgur using `-e` (wait till capture completes before ending), then parsing `./.shutter/session.xml` for the last screenshot filename, and uploading it.
 
 
+* Cron / Postfix
+  * `sudo apt-get install -y postfix`
+    * Local only
+  ```
+  mkdir ~/.config/cron.hourly
+  ```
+  * `crontab -e`
+  ```
+  @hourly ( cd ~ && run-parts --report /home/$USER/.config/cron.daily )
+  ```
+  
+
 # Manual Only
 
 * Chrome
