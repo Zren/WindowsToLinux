@@ -110,10 +110,21 @@
     * Local only
   ```
   mkdir ~/.config/cron.hourly
+  mkdir ~/.config/cron.daily
+  mkdir ~/.config/cron.weekly
+  mkdir ~/.config/cron.monthly
+  mkdir ~/.config/cron.yearly
+  mkdir ~/.config/cron.reboot
   ```
   * `crontab -e`
   ```
-  @hourly ( cd ~ && run-parts --report /home/$USER/.config/cron.daily )
+  @hourly ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.hourly )
+  @daily ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.daily )
+  @weekly ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.weekly )
+  @monthly ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.monthly )
+  @yearly ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.yearly )
+  
+  @reboot ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.reboot )
   ```
   
 
