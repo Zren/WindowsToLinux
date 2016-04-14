@@ -64,7 +64,9 @@
   * Removable Devices
     * Check "Enable Auto-Mounting of removeable Media"
     * AutoMount data drive on login.
-  
+  * Power Management
+    * Uncheck "Dim Screen"
+    * Switch off after "45 minutes"
 
 * Desktop Settings
   * Tweaks
