@@ -187,6 +187,8 @@ heroku login
 * scrotplus
   * Run `uploadscreenshot -a`, to begin logging into imgur.
 
+* VLC
+  * Video > Deinterlacing: Set to `On` if videos appear cropped when scaled larger than the source's size.
 
 # KDE 5.5 on Kubuntu 15.10
 
