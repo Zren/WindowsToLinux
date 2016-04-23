@@ -79,15 +79,22 @@ sudo apt-get install -y quassel-core quassel-client
 wget https://gist.githubusercontent.com/Zren/e91ad5197f9d6b6d410f/raw/DarkSolarized.qss -P ~/.config/quassel-irc.org/
 wget https://gist.githubusercontent.com/Zren/2779042/raw/DarkMonokai.qss -P ~/.config/quassel-irc.org/
 
-# scrotplus
-pip3 install imgurpython # Required by: scrotplus
+# scrot + nixshot
+pip3 install imgurpython # Required by: nixshot
 mkdir -p ~/Pictures/Screenshots
-cp -r ./home/chris/bin ~/bin
+mkdir ~/bin
+#wget https://github.com/Zren/nixshot/blob/master/bin/captureregion -O ~/bin/captureregion
+wget https://github.com/Zren/nixshot/blob/master/bin/captureregion -O ~/bin/capturescreen
+wget https://github.com/Zren/nixshot/blob/master/bin/captureregion -O ~/bin/uploadscreenshot
+
+# xbindkeys (to bind printscreen since kde shortcuts lag) (and to remap mouse buttons)
 cp ./home/chris/.xbindkeysrc ~/.xbindkeysrc
 xbindkeys
 
 
+
 ## NodeJS Packages
+
 
 ## Python Packages
 pip3 install flask
@@ -97,5 +104,5 @@ pip3 install requests
 
 
 ### Desktop
-
+git clone 
 
