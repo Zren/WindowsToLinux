@@ -88,28 +88,19 @@
   * KWin > Quick Tile Window to the Left: Win+Left
   * KWin > Quick Tile Window to the Right: Win+Right
   * Plasma > Activate Application Menu Widget: Win+Space (You can't bind to just the Windows key atm)
-
-* Shutter
-  * Preferences
-    * Main > Save > Filename: `%Y-%m-%d - %H-%M-%S - $name` 
-    * Main > Save > Directory: ~/Pictures/Screenshots/   
-    * Behaviour > Check "Start Shutter at Login"
-    * Behaviour > Check "Hide Window on First Launch"
-    * Behaviour > Uncheck "Autohide main window when taking a screenshot"
-    * Behaviour > Uncheck "Present main window after taking a screenshot"
-    * Note: Upload is manual only, and [only supports unauthed Imgur uploads](https://bugs.launchpad.net/shutter/+bug/990921).
     
 
 * System Settings > Shortcuts > Custom Shortcuts
   * Uncheck "Preset Actions > PrintScreen"
-  * Edit > New Group: Shutter
-  * PrintScreen `shutter -f`, Ctrl+PrintScreen `shutter -s`, Alt+PrintScreen `shutter -a`
-  * TODO: Auto Upload to Imgur using `-e` (wait till capture completes before ending), then parsing `./.shutter/session.xml` for the last screenshot filename, and uploading it.
+
+* Screenshots: (Using scrot + scripts)
+  * 
 
 
-* Cron / Postfix
+* Cron / Postfix:
   * `sudo apt-get install -y postfix`
     * Local only
+  * [cron.hourly folders in home directory](http://unix.stackexchange.com/questions/275440/etc-cron-hourly-in-home-directory/275442#275442)
   ```
   mkdir ~/.config/cron.hourly
   mkdir ~/.config/cron.daily
@@ -128,7 +119,19 @@
   
   @reboot ( cd ~ && run-parts --report /home/$(whoami)/.config/cron.reboot )
   ```
-  
+
+* VLC:
+  * Update vlc youtube parser (to fix filenames)
+  ```
+  wget https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
+  sudo cp /usr/lib/vlc/lua/playlist/youtube.luac youtube.luac # Backup
+  sudo rm /usr/lib/vlc/lua/playlist/youtube.luac # Delete broken parser
+  sudo cp youtube.lua /usr/lib/vlc/lua/playlist/youtube.lua # Install working parser
+  ```
+  * Install [youtube playlist parser](http://addons.videolan.org/content/show.php/+Youtube+playlist?content=149909)
+  ```
+  wget http://addons.videolan.org/CONTENT/content-files/149909-playlist_youtube.lua -P ~/.local/share/vlc/lua/playlist/youtube_playlist.lua
+  ```
 
 # Manual Only
 
@@ -137,29 +140,20 @@
   * ~~Disable smooth scroll in chrome://flags~~ (Causes persistent tearing/artifacts on scroll).
   * Check that Flash requires user ok (not disabled and "always run" is unchecked) in chrome://plugins
   * Ghostery
-    * Uncheck SoundCloud, Gravatar, Videology (daisuki)
+    * Uncheck SoundCloud, Gravatar, Videology (daisuki.net)
   * Imagus
   ```
   !:bato.to
   ```
   * RES
     * Appearance > Selected Entry: Off
+    * Browsing > Single Click Opener > openOrder: links then comments
+    * Browsing > Single Click Opener > openBackground: On
   * Youtube => VLC
     * Copy `~/.local/share/applications/vlcprotocol.desktop`
     * Run `xdg-mime default vlcprotocol.desktop x-scheme-handler/vlc`
     * Install https://greasyfork.org/en/scripts/17847-youtube-vlc-link to bind the Cinema View Button to open the vlc:// link.
-    * Update vlc youtube parser (to fix filenames)
-    ```
-    wget https://raw.githubusercontent.com/videolan/vlc/master/share/lua/playlist/youtube.lua
-    sudo cp /usr/lib/vlc/lua/playlist/youtube.luac youtube.luac # Backup
-    sudo rm /usr/lib/vlc/lua/playlist/youtube.luac # Delete broken parser
-    sudo cp youtube.lua /usr/lib/vlc/lua/playlist/youtube.lua # Install working parser
-    ```
-    * Install [youtube playlist parser](http://addons.videolan.org/content/show.php/+Youtube+playlist?content=149909)
-    ```
-    wget http://addons.videolan.org/CONTENT/content-files/149909-playlist_youtube.lua -P ~/.local/share/vlc/lua/playlist/youtube_playlist.lua
-    ```
-
+  
 * Git
 ```
 git config --global user.email "email@gmail.com"
