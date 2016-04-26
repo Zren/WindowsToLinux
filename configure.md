@@ -40,6 +40,17 @@
 * Konversation
   * Behaviour > Chat Window > Hide Join/Part/Nick events
 
+* Clementine
+  * Menu > Playlist > Repeat Mode: Repeat Playlist
+  * Tools > Preferences
+    * Playback > Uncheck Show a glowing animation on the current track
+    * Playback > Uncheck Fade out when stopping a track
+    * Playback > Uncheck Cross-fade when changing tracks manually
+    * Behaviour > Using the menu to add a song will: Always stary playing
+    * Behaviour > Double clicking a song will: Replace the playlist + Always start playing
+    * Search > Uncheck DigitallyImported, DropBox, Google Drive, Jazz
+  * 
+
 * Install
   * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
