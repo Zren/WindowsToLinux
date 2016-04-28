@@ -6,16 +6,37 @@
   * Control > Configure Dolphin > Navigation > Check "Open archives as folder"
   * Control > Configure Shortcuts > Paste > Alternative (Shift+Insert): None (So we can paste to terminal)
 
-* Taskbar
+* Taskbar (aka Panel)
+  * Unlock Panel if not already
+  * Right Click Start Button > Alternatives > Application Menu
+  * Right Click application in taskbar > Alternatives > Task Manager (for icons + titles)
   * Run Dolphin, Chrome, Konsole, SublimeText, then right click each in the taskbar > Show launcher when not running
   * Taskbar Settings
     * On middle-click: Close
-    * Sorting: Do not sort
+    * Sorting: Manually
     * Grouping: Do not group
     * Check "Show only task from current desktop"
-    * Note: Minimized items are grayed out [might be fixed in 16.10](https://bugs.kde.org/show_bug.cgi?id=311991)
+    * Note: Minimized items are grayed out [might be fixed in 16.04](https://bugs.kde.org/show_bug.cgi?id=311991).
   * Panel Settings
     * Remove Sitcky Notes widget
+    * Add Widgets > Get New Widgets > Download
+      * Event Calendar
+      * Redshift
+  * System Tray Settings
+    * General > Extra Items (wither they are Enabled or not)
+      * Uncheck "Clipboard", "Instant Messaging", "Battery", "Audio Volume"
+    * Entries
+      * Shown: Konversation
+      * Hidden: Networks, Redshift, Updates
+  * Add Widgets > Audio Volume (left of clock)
+  * Right Click Clock > Alternatives > Event Calendar
+  * Event Calendar
+    * General > Line 1: `ddd d,h:mm AP`
+    * General > Mouse Wheel > Volume (xdotool)
+    * Calendar > Uncheck Show Borders
+    * Google Calendar > Login & Select Calendars
+    * Weather > Select city
+  * Lock Panel
 
 * Window Settings
   * Screen Edges
@@ -29,13 +50,6 @@
         * Desktop Switching > Switch One Desktop Right: Ctrl+Alt+Right
         * Desktop Switching > Switch To Desktop 1,2,3: None
 
-* SysTray
-  * System Tray Settings
-    * General > Uncheck "Clipboard"
-    * General > Uncheck "Instant Messaging"
-    * Entries > Shown: Konversation
-    * Entries > Hidden: 
-  * Lock Widgets
 
 * Konversation
   * Behaviour > Chat Window > Hide Join/Part/Nick events
@@ -49,7 +63,7 @@
     * Behaviour > Using the menu to add a song will: Always stary playing
     * Behaviour > Double clicking a song will: Replace the playlist + Always start playing
     * Search > Uncheck DigitallyImported, DropBox, Google Drive, Jazz
-  * 
+
 
 * Install
   * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
