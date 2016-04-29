@@ -64,6 +64,14 @@
     * Behaviour > Double clicking a song will: Replace the playlist + Always start playing
     * Search > Uncheck DigitallyImported, DropBox, Google Drive, Jazz
 
+* SMPlayer
+  * Options > Toolbars > Uncheck Main and Language toolbars
+  * Options > Preferences
+    * Interface
+      * Autoresize: Only after loading a new video
+      * Icon Set: Monochrome
+      * Floating control
+        * Width: 100
 
 * Install
   * Chrome: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
