@@ -3,7 +3,10 @@
   
 * Dolphin File Browser
   * Toolbar > Control > Adjust View Properties > Check "Show hidden files" and "Use these view properties as default", and "Apply view properties to: All Folders"
-  * Control > Configure Dolphin > Navigation > Check "Open archives as folder"
+  * Control > Configure Dolphin:
+    * Navigation > Check "Open archives as folder"
+    * Services
+      * Uncheck: "Copy To", "Delete", "File to activity", "Send as Email", "Send to IM", "Send via Bluetooth", "Send via KDE Connect"
   * Control > Configure Shortcuts > Paste > Alternative (Shift+Insert): None (So we can paste to terminal)
 
 * Taskbar (aka Panel)
