@@ -63,9 +63,11 @@
     * Playback > Uncheck Show a glowing animation on the current track
     * Playback > Uncheck Fade out when stopping a track
     * Playback > Uncheck Cross-fade when changing tracks manually
-    * Behaviour > Using the menu to add a song will: Always stary playing
+    * Behaviour > Using the menu to add a song will: Always start playing
     * Behaviour > Double clicking a song will: Replace the playlist + Always start playing
     * Search > Uncheck DigitallyImported, DropBox, Google Drive, Jazz
+    * Last.fm > Unchceck Show the "love" amd "ban" buttons
+    * Lasm.fm > Uncheck Show the scrobble button
 
 * SMPlayer
   * Options > Toolbars > Uncheck Main and Language toolbars
