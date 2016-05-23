@@ -69,6 +69,11 @@
     * Last.fm > Unchceck Show the "love" amd "ban" buttons
     * Lasm.fm > Uncheck Show the scrobble button
 
+* Comix
+  * View > Toolbars > Hide "Statusbar" and "Thumbnails"
+  * Edit > Preferences
+    * Behavious > Check "Flip pages when scrolling off the edges of pages"
+
 * SMPlayer
   * Options > Toolbars > Uncheck Main and Language toolbars
   * Options > Preferences
