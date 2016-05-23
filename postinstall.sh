@@ -3,12 +3,15 @@ sudo apt-get install -y comix
 sudo apt-get install -y gimp
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
+sudo apt-get install -y p7zip-full p7zip-rar
 sudo apt-get install -y redshift redshift-gtk
 sudo apt-get install -y scrot
+sudo apt-get install -y unrar
 sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y vlc
 sudo apt-get install -y xbindkeys
 sudo apt-get install -y xdotool
+
 
 ## Calibre
 # https://calibre-ebook.com/download_linux (install to ~/calibre-bin/ and create custom .desktop)
