@@ -1,4 +1,5 @@
 ### Everyone
+sudo apt-get install -y comix
 sudo apt-get install -y gimp
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
