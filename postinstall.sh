@@ -4,7 +4,7 @@ sudo apt-get install -y gimp
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
 sudo apt-get install -y p7zip-full p7zip-rar
-sudo apt-get install -y redshift redshift-gtk
+sudo apt-get install -y redshift
 sudo apt-get install -y scrot
 sudo apt-get install -y unrar
 sudo apt-get install -y virtualbox-qt
