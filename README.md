@@ -1,6 +1,6 @@
 # WindowsToLinux
 
-This repo is for streamlining the installation the software on a clean KDE desktop (Kubuntu). Check out [postinstall.sh](postinstall.sh) for all the software that will be installed.
+This repo is for streamlining the installation the software on a clean KDE desktop ([KDE Neon](https://neon.kde.org/download)). Check out [postinstall.sh](postinstall.sh) for all the software that will be installed.
 
 ```
 mkdir -p ~/Code/Git
