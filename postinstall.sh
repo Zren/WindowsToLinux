@@ -12,6 +12,10 @@ sudo apt-get install -y vlc
 sudo apt-get install -y xbindkeys
 sudo apt-get install -y xdotool
 
+## Chrome
+cd ~/Downloads
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome*.deb
 
 ## Calibre
 # https://calibre-ebook.com/download_linux (install to ~/calibre-bin/ and create custom .desktop)
