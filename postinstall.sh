@@ -1,6 +1,7 @@
 ### Everyone
 sudo apt-get install -y comix
 sudo apt-get install -y gimp
+sudo apt-get install -y hexchat
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
 sudo apt-get install -y p7zip-full p7zip-rar
