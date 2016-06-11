@@ -4,14 +4,17 @@ sudo apt-get install -y gimp
 sudo apt-get install -y hexchat
 sudo apt-get install -y htop
 sudo apt-get install -y inkscape
+sudo apt-get install -y libnotify-bin # notify-send (dota 2 notifications)
 sudo apt-get install -y p7zip-full p7zip-rar
 sudo apt-get install -y redshift
+sudo apt-get install -y software-properties-common # add-apt-repository (https://bugs.kde.org/show_bug.cgi?id=364165)
 sudo apt-get install -y scrot
 sudo apt-get install -y unrar
 sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y vlc
 sudo apt-get install -y xbindkeys
 sudo apt-get install -y xdotool
+
 
 ## Chrome
 cd ~/Downloads
